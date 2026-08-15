@@ -71,3 +71,13 @@ channel and shape that project's maintainers already expect.
    receiving community's convention measurably reduces the odds of a
    maintainer engaging at all. source: Ten Simple Rules for Reporting a
    Bug, rule 1 (as above).
+
+7. **When** checking whether a defect has already been reported —
+   **choice**: run a concrete similarity comparison (title/body overlap)
+   against both the open backlog and the last 15-20 closed issues, not
+   a single free-text keyword search; a defect closed as duplicate or
+   wontfix under different wording than the reporter's own phrasing is
+   invisible to a plain keyword search but not to an overlap comparison
+   against the closed set. Treat closed issues as part of the dedup
+   surface, not only open ones — a re-report of something already
+   resolved wastes the same maintainer attention as a live duplicate.
