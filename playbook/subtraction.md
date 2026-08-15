@@ -67,3 +67,13 @@ not because removal is a stylistic nicety.
    duplicates maintainer triage load rather than reducing it.
    source: Ten Simple Rules for Reporting a Bug, rule 3, PLOS Comput
    Biol (2022) (as above).
+
+7. **When** a suspected upstream defect is about to be drafted into an
+   issue — **choice**: before filing, re-run the exact reproduction
+   against the current on-the-record state one more time as a dedicated
+   verification step, separate from the original observation that
+   surfaced it; do not file straight off the first detection. A defect
+   that looked real at observation time can already be stale (fixed,
+   config-drifted, or an artifact of the observing session's own state)
+   by filing time, and a false-positive upstream report costs the
+   maintainer the same triage load as a true one.
